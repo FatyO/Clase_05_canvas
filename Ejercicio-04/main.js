@@ -74,7 +74,7 @@ downloadingImage.onload = function(){
 
 
 /*///// 6.3 Asignar el "origen" o "source" de la imagen que queremos cargar, esto va a disparar inmediatamente la descarga (o "loading") y cuando termine, como si fuera un evento, disparará la función onload() que creamos en el paso anterior ///*/
-downloadingImage.src = "https://images.unsplash.com/photo-1725961476494-efa87ae3106a?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+downloadingImage.src = "https://images.creativefabrica.com/products/previews/2023/11/03/hBzNwqaKv/2XfkTq4YIqVrr9jEiEezAuhvcsj-mobile.jpg"
 
 
 
