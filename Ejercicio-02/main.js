@@ -9,6 +9,14 @@ function updateCanvasSize() {
   CANVAS.height = CANVAS.getBoundingClientRect().height;
 }
 
+// function renderOneLine(colorTrazo,grosrLinea,origenX,origenY,finalX,finalY){
+//CTX.strokeStyle = "#ab3eff";
+//CTX.lineWidth = 11;
+//CTX.beginPath();
+//CTX.moveTo(100, 30);
+//CTX.lineTo(60, 260);
+//CTX.stroke();
+//}
 
 
 /*///// 1. Definir funcion de dibujo que estaremos repitiendo usando requestAnimationFrame() ///*/
@@ -28,8 +36,8 @@ function renderLines() {
       7. En caso de desear realizar más líneas, se repiten los pasos del 1 al 6.
     */
   CTX.strokeStyle = "aqua";
-  CTX.lineWidth = 5;
-  CTX.beginPath();
+  CTX.lineWidth = 5;// LINEA GROSOR
+  CTX.beginPath();// EMPEZAR 
   CTX.moveTo(30, 30);
   CTX.lineTo(160, 160);
   CTX.lineTo(360, 160);
@@ -44,6 +52,9 @@ function renderLines() {
   CTX.stroke();
 
   requestAnimationFrame(renderLines);
+
+  //renderOneLine(colorTrazo,grosorLinea,OrigenX,origenY,finalX,finalY)
+  //renderOneType("*colorTrazo")
 }
 
 
